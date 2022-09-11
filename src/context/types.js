@@ -1,0 +1,1 @@
+export const GET_BENEFIT = 'GET_BENEFIT'

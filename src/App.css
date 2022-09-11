@@ -1,10 +1,44 @@
+body {
+ background-color: #FFF;
+}
+
 .App {
-  text-align: center;
+  margin-top: 100px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+
+.sidebar {
+  position: absolute;
+  top: 70px;
+  left: -60vw;
+  height: 100%;
+  width: 18%;
+  transition: left 0.3s ease-in-out;
+  background-color: #FFFFFF;
+  padding: 20px;
+  z-index: 2;
+}
+.content {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  transition: left 0.3s ease-in-out;
+  background-color: #FFF;
+  border: solid 20px #EEE;
+  padding: 30px;
+}
+.sidebar.open {
+  left: 0;
+}
+.content.open {
+left: 20%;
 }
 
 @media (prefers-reduced-motion: no-preference) {

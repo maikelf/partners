@@ -1,0 +1,13 @@
+.head1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1C1C1F;
+}
+.full {
+    width: 70%;
+}
+.separator {
+    margin: 20px auto;
+}
