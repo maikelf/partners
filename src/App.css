@@ -1,5 +1,6 @@
 body {
  background-color: #FFF;
+ padding-right: 0px !important; overflow: none !important;
 }
 
 .App {
