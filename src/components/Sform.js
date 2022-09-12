@@ -39,6 +39,7 @@ export const Sform = props => {
                         label="Program of choice"
                         id="form-program-of-choice"
                         onChange={handleChangeProgramOfChoice}
+                        MenuProps={{ disableScrollLock: true }}
                     >
                     <MenuItem value={10}>Ten</MenuItem>
                     <MenuItem value={20}>Twenty</MenuItem>
@@ -54,6 +55,7 @@ export const Sform = props => {
                         label="Province"
                         id="form-province"
                         onChange={handleChangeProvince}
+                        MenuProps={{ disableScrollLock: true }}
                     >
                     <MenuItem value={10}>Alberta</MenuItem>
                     <MenuItem value={20}>British Columbia</MenuItem>
