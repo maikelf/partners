@@ -2,7 +2,7 @@
     { 
         "beneficCode": 240205,
         "province": "Ontario",
-        "programOfChoise": "12 - Related jealth Service",
+        "programOfChoice": "12 - Related Health Service",
         "rate": "$ 400.00",
         "description": "Chiropractor - Initial visit",
         "effectiveDate": "2022-09-03"
@@ -10,7 +10,7 @@
     { 
         "beneficCode": 240210,
         "province": "Ontario",
-        "programOfChoise": "12 - Related jealth Service",
+        "programOfChoice": "12 - Related Health Service",
         "rate": "$ 120.00",
         "description": "Chiropractor - Initial visit (Acupuncture)",
         "effectiveDate": "2022-04-03"
@@ -18,7 +18,7 @@
     { 
         "beneficCode": 240214,
         "province": "Ontario",
-        "programOfChoise": "12 - Related jealth Service",
+        "programOfChoice": "12 - Related Health Service",
         "rate": "$ 120.00",
         "description": "Chiropractor - Subsequent visit",
         "effectiveDate": "2022-03-03"
@@ -26,7 +26,7 @@
     { 
         "beneficCode": 240216,
         "province": "Ontario",
-        "programOfChoise": "12 - Related jealth Service",
+        "programOfChoice": "12 - Related Health Service",
         "rate": "$ 120.00",
         "description": "Chiropractor - Subsequent visit (Acupuncture)",
         "effectiveDate": "2022-02-03"

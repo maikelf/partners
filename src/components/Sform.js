@@ -15,14 +15,14 @@ import Button from '@mui/material/Button';
 
 export const Sform = props => {
 
-    const [programOfChoise, setprogramOfChoise] = useState('');
+    const [programOfChoice, setprogramOfChoice] = useState('');
     const [province, setprovince] = useState('');
     const [keyword, setkeyword] = useState('');
     const [benefitCode, setbenefitCode] = useState('');
     const [fromDate, setfromDate] = useState(null);
     const [toDate, settoDate] = useState(null);
     
-    const handleChangeProgramOfChoise = (event) => setprogramOfChoise(event.target.value);
+    const handleChangeProgramOfChoice = (event) => setprogramOfChoice(event.target.value);
     const handleChangeProvince = (event) => setprovince(event.target.value);
     
 
@@ -33,12 +33,12 @@ export const Sform = props => {
           <Box component="form" className='separator'>
             <div className='separator'>
                 <FormControl fullWidth>
-                    <InputLabel>Program of choise</InputLabel>
+                    <InputLabel>Program of choice</InputLabel>
                     <Select
-                        value={programOfChoise}
-                        label="Program of choise"
-                        id="form-program-of-choise"
-                        onChange={handleChangeProgramOfChoise}
+                        value={programOfChoice}
+                        label="Program of choice"
+                        id="form-program-of-choice"
+                        onChange={handleChangeProgramOfChoice}
                     >
                     <MenuItem value={10}>Ten</MenuItem>
                     <MenuItem value={20}>Twenty</MenuItem>
@@ -55,9 +55,19 @@ export const Sform = props => {
                         id="form-province"
                         onChange={handleChangeProvince}
                     >
-                    <MenuItem value={10}>Ten</MenuItem>
-                    <MenuItem value={20}>Twenty</MenuItem>
-                    <MenuItem value={30}>Thirty</MenuItem>
+                    <MenuItem value={10}>Alberta</MenuItem>
+                    <MenuItem value={20}>British Columbia</MenuItem>
+                    <MenuItem value={30}>Manitoba</MenuItem>
+                    <MenuItem value={40}>New Brunswick</MenuItem>
+                    <MenuItem value={50}>Newfoundland and Labrador</MenuItem>
+                    <MenuItem value={60}>Northwest Territories</MenuItem>
+                    <MenuItem value={70}>Nova Scotia</MenuItem>
+                    <MenuItem value={80}>Nunavut</MenuItem>
+                    <MenuItem value={90}>Ontario</MenuItem>
+                    <MenuItem value={100}>Prince Edward Island</MenuItem>
+                    <MenuItem value={110}>Quebec</MenuItem>
+                    <MenuItem value={120}>Saskatchewan</MenuItem>
+                    <MenuItem value={130}>Yukon</MenuItem>
                   </Select>
                 </FormControl>
             </div>

@@ -42,7 +42,7 @@ export const Content = props => {
                         <TableRow key={row.beneficCode}>
                             <TableCell component="th" scope="row">{row.beneficCode}</TableCell>
                             <TableCell>{row.province}</TableCell>
-                            <TableCell>{row.programOfChoise}</TableCell>
+                            <TableCell>{row.programOfChoice}</TableCell>
                             <TableCell>{row.rate}</TableCell>
                             <TableCell>{row.description}</TableCell>
                             <TableCell>{row.effectiveDate}</TableCell>
