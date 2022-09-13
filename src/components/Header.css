@@ -33,7 +33,7 @@ header {
     padding: 10px 20px;
     z-index: 8;
 }
-a {
+ul li a, a {
     text-decoration: none;
     color: #333;
 }
