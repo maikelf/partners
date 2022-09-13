@@ -13,7 +13,6 @@ body {
   pointer-events: none;
 }
 
-
 .sidebar {
   position: absolute;
   top: 70px;
@@ -21,7 +20,7 @@ body {
   width: 18%;
   transition: left 0.3s ease-in-out;
   background-color: #FFFFFF;
-  padding: 20px;
+  padding: 20px 0px 20px 20px;
   z-index: 2;
 }
 .content {
@@ -38,7 +37,7 @@ body {
   left: 0;
 }
 .content.open {
-left: 20%;
+ left: 20%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -68,5 +67,27 @@ left: 20%;
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .sidebar {
+    left: 0px;
+    width: 90%;
+    height: 100%;
+  }
+  .sidebar.open {
+    left: -90vw;
+    transition: left 0.3s ease-in-out;
+    background-color: #FFFFFF;
+    padding: 0px;
+    z-index: 2;
+  }
+  .content.open {
+    left: 0%;
+   }
+   .content {
+    border: solid 10px #EEE;
+    padding: 10px;
   }
 }

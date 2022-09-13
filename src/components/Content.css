@@ -3,4 +3,11 @@
   }
 .content-body {
   height: calc(100% - 250px);
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 920px) {
+  .content-body {
+    height: calc(100% - 190px);
+  }
 }

@@ -42,3 +42,23 @@ a {
     text-transform: capitalize;
     color: #333;
 }
+
+@media screen and (max-width: 920px) {
+    .menu-icon {
+        left: -10px;
+    }
+    .menu-logo {
+        left: 0px;
+    }
+    .menu-help {
+        display: block;
+        width: 50%;
+        right: 42px;
+        text-align: right;
+    }
+    .menu-lang {
+        top: -10px;
+        margin-left: 0px;
+        left: 0px;
+    }
+}

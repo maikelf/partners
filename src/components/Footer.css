@@ -35,3 +35,35 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.only-phone {
+    display: none;
+}
+
+@media screen and (max-width: 920px) {
+    .footer-left {
+        line-height: 30px;
+        height: auto;
+        padding: 10px;
+    }
+    .footer-right {
+        line-height: normal;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    ul li {
+        display: block;
+        margin: 0px;
+        list-style: circle;
+    }
+    .only-desktop {
+        display: none;
+    }
+    .only-phone {
+        display: block;
+    }
+    .footer-right-phone {
+        padding: 20px;
+        text-align: right;
+    }
+}
