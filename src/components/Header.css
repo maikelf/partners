@@ -37,3 +37,8 @@ a {
     text-decoration: none;
     color: #333;
 }
+.btntext {
+    font-style: normal;
+    text-transform: capitalize;
+    color: #333;
+}

@@ -1,3 +1,6 @@
 .bold{
     font-weight: 600;
   }
+.content-body {
+  height: calc(100% - 250px);
+}

@@ -5,12 +5,15 @@ import MenuIcon from '@mui/icons-material/Menu';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import Button from '@mui/material/Button';
 
 export const Header = props => {
     const [anchorEl, setAnchorEl] = useState(null);
+    const [language, setLanguage] = useState('Français');
     const open = Boolean(anchorEl);
     const handleClick = (event) => setAnchorEl(event.currentTarget);
     const handleClose = () => setAnchorEl(null);
+    const changeLanguage = () => language === 'Français' ? setLanguage('English') : setLanguage('Français');
     return(
         <header>
             <div className="menu-icon">
@@ -37,7 +40,9 @@ export const Header = props => {
                 </Menu>
 
                 <div className='menu-lang'>
-                    Français   
+                    <Button onClick={changeLanguage}>
+                        <div className='btntext'>{language}</div>
+                    </Button>
                 </div>
             </div>
         </header>

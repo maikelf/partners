@@ -9,7 +9,7 @@ import './Content.css';
 
 
 export const Content = props => {
-    const contentClass = props.isOpen ? "content open" : "content";
+    const contentClass = props.isOpen ? "content open content-body" : "content content-body";
     const [table, setTable] = useState([]);
 
     useEffect(() => {
